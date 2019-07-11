@@ -1,0 +1,73 @@
+#main-nav {
+    opacity: 0.8;
+
+    .navbar-nav {
+        a {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+
+#showcase {
+    height: 92vh;
+    position: relative;
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover fixed;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .showcase_text {
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+}
+
+#aboutme {
+
+
+    .about-img {
+        width: 465px;
+        height: 460px;
+        margin-top: -45px;
+        border-radius: 50%;
+        margin-left: -16px;
+    }
+
+}
+
+#mywork {
+    background-color: #E0E0E0;
+}
+
+#contactme {
+    .verse_container {
+
+        .verse {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 2.8rem;
+            font-style: italic;
+        }
+    }
+
+    p {
+        font-size: 1.2rem;
+
+    }
+
+    .contact_info {
+        background-color: #E0E0E0;
+    }
+}
