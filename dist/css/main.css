@@ -49,9 +49,14 @@ body {
 @media (max-width: 991px) {
   body {
     overflow: auto; }
-  #aboutme .about-img {
-    margin-top: 5px;
-    margin-left: 105px; } }
+  #aboutme .aboutme-img_container {
+    position: relative; }
+    #aboutme .aboutme-img_container .about-img {
+      margin-top: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 0%); } }
 
 @media (max-width: 767px) {
   body {

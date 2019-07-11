@@ -4,9 +4,17 @@
     }
 
     #aboutme {
-        .about-img {
-            margin-top: 5px;
-            margin-left: 105px;
+
+        .aboutme-img_container {
+            position: relative;
+
+            .about-img {
+                margin-top: 10px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, 0%);
+            }
         }
     }
 }
