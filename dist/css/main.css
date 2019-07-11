@@ -72,6 +72,8 @@ body {
     text-align: center; } }
 
 @media (max-width: 575px) {
+  body {
+    overflow: hidden; }
   #showcase .showcase_text {
     text-align: center;
     position: absolute;
