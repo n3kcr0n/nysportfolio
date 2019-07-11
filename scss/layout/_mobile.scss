@@ -13,7 +13,7 @@
             text-align: center;
             position: absolute;
             top: 50%;
-            left: 45%;
+            left: 43%;
             transform: translate(-50%, -50%);
         }
     }
@@ -36,11 +36,53 @@
 }
 
 @media (max-width: 575px) {
-    #showcase {}
+    body {
+        overflow: hidden;
+    }
+
+    #showcase {
+        .showcase_text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 42%;
+            transform: translate(-50%, -50%);
+        }
+    }
 
     #aboutme {
         .about-img {
             margin-left: 140px;
+        }
+    }
+}
+
+@media(max-width:414px) {
+    #aboutme {
+        .about-img {
+            height: 15rem;
+            width: 15rem;
+            margin-left: 72px;
+        }
+    }
+}
+
+@media(max-width: 375px) {
+    #showcase {
+        .showcase_text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    #aboutme {
+        .about-img {
+            height: 15rem;
+            width: 15rem;
+            margin-left: 55px;
         }
     }
 }
@@ -60,7 +102,7 @@
         .about-img {
             height: 10rem;
             width: 10rem;
-            margin-left: 55px;
+            margin-left: 68px;
         }
     }
 }
