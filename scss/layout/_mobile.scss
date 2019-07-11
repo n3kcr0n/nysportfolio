@@ -1,4 +1,8 @@
 @media (max-width: 991px) {
+    body {
+        overflow: auto;
+    }
+
     #aboutme {
         .about-img {
             margin-top: 5px;
@@ -8,6 +12,10 @@
 }
 
 @media (max-width: 767px) {
+    body {
+        overflow: auto;
+    }
+
     #showcase {
         .showcase_text {
             text-align: center;
@@ -36,9 +44,7 @@
 }
 
 @media (max-width: 575px) {
-    body {
-        overflow: hidden;
-    }
+
 
     #showcase {
         .showcase_text {
