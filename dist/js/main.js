@@ -10,9 +10,13 @@ $('#main-nav a').on('click', function (event) {
         const hash = this.hash;
 
         $('html, body').animate({
-            scrollTop: $(hash).offset().top - 120
+            scrollTop: $(hash).offset().top - 200
         }, 800, function () {
             window.location.hash = hash;
         });
     }
 });
+
+$('body').on('click', function () {
+    $('.collapse').collapse('hide');
+})

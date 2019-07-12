@@ -7,6 +7,7 @@ body {
     font-size: 1.5rem; }
 
 #showcase {
+  margin-top: 0px;
   height: 92vh;
   position: relative;
   background: #333 url("../img/showcase.jpg") no-repeat center center/cover fixed; }
@@ -25,9 +26,13 @@ body {
 #aboutme .about-img {
   width: 465px;
   height: 460px;
-  margin-top: -45px;
-  border-radius: 50%;
-  margin-left: -16px; }
+  border-radius: 50%; }
+
+#aboutme h3 {
+  text-align: left; }
+
+#aboutme blockquote {
+  text-align: left; }
 
 #mywork {
   background-color: #E0E0E0; }
@@ -49,9 +54,10 @@ body {
 @media (max-width: 991px) {
   body {
     overflow: auto; }
-  #aboutme .about-img {
-    margin-top: 5px;
-    margin-left: 105px; } }
+  #aboutme h3 {
+    text-align: center; }
+  #aboutme blockquote {
+    text-align: right; } }
 
 @media (max-width: 767px) {
   body {
@@ -62,14 +68,10 @@ body {
     top: 50%;
     left: 43%;
     transform: translate(-50%, -50%); }
-  #aboutme .about-img {
-    width: 232.5px;
-    height: 230px;
-    margin-left: 135px; }
   #aboutme h3 {
     text-align: center; }
   #aboutme p {
-    text-align: center; } }
+    text-align: right; } }
 
 @media (max-width: 575px) {
   body {
@@ -81,13 +83,13 @@ body {
     left: 42%;
     transform: translate(-50%, -50%); }
   #aboutme .about-img {
-    margin-left: 140px; } }
+    height: 25rem;
+    width: 25rem; } }
 
 @media (max-width: 414px) {
   #aboutme .about-img {
     height: 15rem;
-    width: 15rem;
-    margin-left: 72px; } }
+    width: 15rem; } }
 
 @media (max-width: 375px) {
   #showcase .showcase_text {
@@ -98,8 +100,7 @@ body {
     transform: translate(-50%, -50%); }
   #aboutme .about-img {
     height: 15rem;
-    width: 15rem;
-    margin-left: 55px; } }
+    width: 15rem; } }
 
 @media (max-width: 320px) {
   #showcase .showcase_text {
@@ -109,9 +110,8 @@ body {
     left: 35%;
     transform: translate(-50%, -50%); }
   #aboutme .about-img {
-    height: 10rem;
-    width: 10rem;
-    margin-left: 68px; } }
+    height: 13rem;
+    width: 13rem; } }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
