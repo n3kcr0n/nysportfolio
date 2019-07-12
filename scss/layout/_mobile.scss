@@ -4,19 +4,15 @@
     }
 
     #aboutme {
+        h3 {
+            text-align: center;
+        }
 
-        .aboutme-img_container {
-            position: relative;
-
-            .about-img {
-                margin-top: 10px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, 0%);
-            }
+        blockquote {
+            text-align: right;
         }
     }
+
 }
 
 @media (max-width: 767px) {
@@ -35,18 +31,12 @@
     }
 
     #aboutme {
-        .about-img {
-            width: 232.5px;
-            height: 230px;
-            margin-left: 135px;
-        }
-
         h3 {
             text-align: center;
         }
 
         p {
-            text-align: center;
+            text-align: right;
         }
     }
 }
@@ -68,9 +58,11 @@
 
     #aboutme {
         .about-img {
-            margin-left: 140px;
+            height: 25rem;
+            width: 25rem;
         }
     }
+
 }
 
 @media(max-width:414px) {
@@ -78,7 +70,6 @@
         .about-img {
             height: 15rem;
             width: 15rem;
-            margin-left: 72px;
         }
     }
 }
@@ -98,7 +89,6 @@
         .about-img {
             height: 15rem;
             width: 15rem;
-            margin-left: 55px;
         }
     }
 }
@@ -116,9 +106,8 @@
 
     #aboutme {
         .about-img {
-            height: 10rem;
-            width: 10rem;
-            margin-left: 68px;
+            height: 13rem;
+            width: 13rem;
         }
     }
 }

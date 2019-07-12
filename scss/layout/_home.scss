@@ -15,6 +15,7 @@ body {
 
 
 #showcase {
+    margin-top: 0px;
     height: 92vh;
     position: relative;
     background: #333 url('../img/showcase.jpg') no-repeat center center/cover fixed;
@@ -36,14 +37,18 @@ body {
 }
 
 #aboutme {
-
-
     .about-img {
         width: 465px;
         height: 460px;
-        margin-top: -45px;
         border-radius: 50%;
-        margin-left: -16px;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    blockquote {
+        text-align: left;
     }
 
 }
